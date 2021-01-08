@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.overlordsiii.fixairblocks.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CloneCommandMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

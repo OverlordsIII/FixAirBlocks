@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "fix-air-blocks",
+  "version": "${version}",
+
+  "name": "Fix Air Blocks",
+  "description": "Removes air blocks from commands such as /fill and worldedit commands",
+  "authors": [
+    "VenusWarrior",
+    "OverlordsIII"
+  ],
+  "contact": {
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "mixins": [
+    "fix-air-blocks.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "worldedit": "*"
+  }
+}
